@@ -3116,7 +3116,7 @@ class VmMigrationClient(metaclass=VmMigrationClientMeta):
                 An object representing a long-running operation.
 
                 The result type for the operation will be
-                :class:`google.cloud.vmmigration_v1.types.StartMigrationResponse`
+                :class:`google.cloud.vmmigration_v1.types.MigratingVm`
                 Response message for 'StartMigration' request.
 
         """
@@ -3441,7 +3441,7 @@ class VmMigrationClient(metaclass=VmMigrationClientMeta):
                 An object representing a long-running operation.
 
                 The result type for the operation will be
-                :class:`google.cloud.vmmigration_v1.types.FinalizeMigrationResponse`
+                :class:`google.cloud.vmmigration_v1.types.MigratingVm`
                 Response message for 'FinalizeMigration' request.
 
         """
