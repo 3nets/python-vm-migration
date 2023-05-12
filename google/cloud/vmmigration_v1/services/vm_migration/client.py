@@ -3165,7 +3165,7 @@ class VmMigrationClient(metaclass=VmMigrationClientMeta):
         response = operation.from_gapic(
             response,
             self._transport.operations_client,
-            vmmigration.StartMigrationResponse,
+            vmmigration.MigratingVm,
             metadata_type=vmmigration.OperationMetadata,
         )
 
@@ -3490,7 +3490,7 @@ class VmMigrationClient(metaclass=VmMigrationClientMeta):
         response = operation.from_gapic(
             response,
             self._transport.operations_client,
-            vmmigration.FinalizeMigrationResponse,
+            vmmigration.MigratingVm,
             metadata_type=vmmigration.OperationMetadata,
         )
 
